@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Year2025 from '../views/Year2025.vue'
 import Year2026 from '../views/Year2026.vue'
+import Kaimonomemo from '../views/Kaimonomemo.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/2026',
       name: '2026',
       component: Year2026
+    },
+    {
+      path: '/kaimonomemo',
+      name: 'kaimonomemo',
+      component: Kaimonomemo
     }
   ]
 })
