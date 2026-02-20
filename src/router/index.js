@@ -4,6 +4,7 @@ import Year2025 from '../views/Year2025.vue'
 import Year2026 from '../views/Year2026.vue'
 import Kaimonomemo from '../views/Kaimonomemo.vue'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
+import TravelNomunomu from '../views/TravelNomunomu.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/privacy',
       name: 'privacy',
       component: PrivacyPolicy
+    },
+    {
+      path: '/travel-nomunomu',
+      name: 'travel-nomunomu',
+      component: TravelNomunomu
     }
   ]
 })
