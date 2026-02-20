@@ -133,7 +133,7 @@ function printPage() {
               <div class="tl-line"></div>
             </div>
             <div class="tl-body">
-              <div class="event-title">成田空港 第3ターミナル 集合</div>
+              <div class="event-title">成田空港 第1ターミナル 集合</div>
               <div class="event-note">出発ロビーで集合 ✈</div>
             </div>
           </div>
