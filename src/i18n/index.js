@@ -45,6 +45,51 @@ const messages = {
         description: 'ご質問やサポートが必要な場合は、お気軽にお問い合わせください。'
       }
     },
+    tessera: {
+      subtitle: 'シンプルで自由なカスタマイズができるクロックウィジェット',
+      customize: {
+        title: 'カスタマイズ',
+        bgColor: '背景色',
+        textColor: '文字色',
+        timezone: 'タイムゾーン',
+        timezonePlaceholder: 'タイムゾーンを検索...',
+        current: '現在:',
+        format: '表示形式',
+        hour: '時間',
+        seconds: '秒',
+        show: '表示',
+        hide: '非表示'
+      },
+      about: {
+        title: 'TesseraClockについて',
+        description: 'シンプルさと自由なカスタマイズを両立したクロックウィジェットアプリです。',
+        features: {
+          title: '主な機能',
+          colors: '背景色・文字色をカラーピッカーで自由に選択',
+          timezone: 'タイムゾーンを世界中から検索して設定',
+          format: '24時間表示 / AM-PM表示を選択',
+          seconds: '秒の表示 / 非表示を切り替え',
+          battery: 'バッテリーに配慮した設計'
+        },
+        widget: {
+          title: '豊富なウィジェットサイズ',
+          home: 'ホーム画面の小・中・大',
+          lock: 'ロック画面の円形・横長・インライン',
+          standby: 'iOS 17のスタンバイモード'
+        }
+      },
+      tech: {
+        title: '技術情報',
+        battery: {
+          title: 'バッテリー最適化',
+          description: '秒の更新はシステムの仕組みを活用し、従来のタイマー駆動より消費電力を抑えた実装を採用しています。'
+        }
+      },
+      contact: {
+        title: 'お問い合わせ',
+        description: 'ご質問やサポートが必要な場合は、お気軽にお問い合わせください。'
+      }
+    },
     privacy: {
       title: 'プライバシーポリシー',
       lastUpdated: '最終更新日',
@@ -114,6 +159,51 @@ const messages = {
         title: 'Download',
         description: 'Available on the App Store',
         appStore: 'App Store'
+      },
+      contact: {
+        title: 'Contact',
+        description: 'If you have any questions or need support, please feel free to contact us.'
+      }
+    },
+    tessera: {
+      subtitle: 'A simple and freely customizable clock widget app',
+      customize: {
+        title: 'Customize',
+        bgColor: 'Background Color',
+        textColor: 'Text Color',
+        timezone: 'Timezone',
+        timezonePlaceholder: 'Search timezone...',
+        current: 'Current:',
+        format: 'Display Format',
+        hour: 'Hour',
+        seconds: 'Seconds',
+        show: 'Show',
+        hide: 'Hide'
+      },
+      about: {
+        title: 'About TesseraClock',
+        description: 'A clock widget app that combines simplicity with free customization.',
+        features: {
+          title: 'Key Features',
+          colors: 'Freely choose background and text colors with color picker',
+          timezone: 'Search and set timezone from around the world',
+          format: 'Choose between 24-hour and AM-PM display',
+          seconds: 'Toggle seconds display on/off',
+          battery: 'Battery-friendly design'
+        },
+        widget: {
+          title: 'Abundant Widget Sizes',
+          home: 'Small, medium, large on home screen',
+          lock: 'Circular, landscape, inline on lock screen',
+          standby: 'iOS 17 Standby mode'
+        }
+      },
+      tech: {
+        title: 'Technical Information',
+        battery: {
+          title: 'Battery Optimization',
+          description: 'Second updates use system mechanisms to reduce power consumption compared to traditional timer-driven implementations.'
+        }
       },
       contact: {
         title: 'Contact',
@@ -195,6 +285,51 @@ const messages = {
         description: '如果您有任何问题或需要支持，请随时与我们联系。'
       }
     },
+    tessera: {
+      subtitle: '一个简单而自由定制的时钟小部件应用程序',
+      customize: {
+        title: '自定义',
+        bgColor: '背景颜色',
+        textColor: '文字颜色',
+        timezone: '时区',
+        timezonePlaceholder: '搜索时区...',
+        current: '当前:',
+        format: '显示格式',
+        hour: '小时',
+        seconds: '秒',
+        show: '显示',
+        hide: '隐藏'
+      },
+      about: {
+        title: '关于TesseraClock',
+        description: '一个结合了简洁性和自由定制的时钟小部件应用程序。',
+        features: {
+          title: '主要功能',
+          colors: '使用颜色选择器自由选择背景色和文字颜色',
+          timezone: '从世界各地搜索和设置时区',
+          format: '在24小时制和12小时制之间切换',
+          seconds: '切换秒的显示/隐藏',
+          battery: '省电设计'
+        },
+        widget: {
+          title: '丰富的小部件尺寸',
+          home: '主屏幕上的小、中、大',
+          lock: '锁定屏幕上的圆形、横向、内嵌',
+          standby: 'iOS 17待机模式'
+        }
+      },
+      tech: {
+        title: '技术信息',
+        battery: {
+          title: '电池优化',
+          description: '秒数更新采用系统机制，与传统的计时器驱动实现相比能耗更低。'
+        }
+      },
+      contact: {
+        title: '联系我们',
+        description: '如果您有任何问题或需要支持，请随时与我们联系。'
+      }
+    },
     privacy: {
       title: '隐私政策',
       lastUpdated: '最后更新',
@@ -264,6 +399,51 @@ const messages = {
         title: '다운로드',
         description: 'App Store에서 이용 가능',
         appStore: 'App Store'
+      },
+      contact: {
+        title: '문의',
+        description: '질문이나 지원이 필요하시면 언제든지 문의해 주세요.'
+      }
+    },
+    tessera: {
+      subtitle: '간단하면서도 자유롭게 커스터마이징할 수 있는 시계 위젯 앱',
+      customize: {
+        title: '커스터마이징',
+        bgColor: '배경색',
+        textColor: '텍스트색',
+        timezone: '시간대',
+        timezonePlaceholder: '시간대 검색...',
+        current: '현재:',
+        format: '표시 형식',
+        hour: '시간',
+        seconds: '초',
+        show: '표시',
+        hide: '숨기기'
+      },
+      about: {
+        title: 'TesseraClock에 대해',
+        description: '단순함과 자유로운 커스터마이징을 결합한 시계 위젯 앱입니다.',
+        features: {
+          title: '주요 기능',
+          colors: '컬러 피커로 배경색과 텍스트 색상을 자유롭게 선택',
+          timezone: '전 세계의 시간대를 검색하여 설정',
+          format: '24시간 및 12시간 표시 중 선택',
+          seconds: '초 표시/숨기기 전환',
+          battery: '배터리를 고려한 설계'
+        },
+        widget: {
+          title: '풍부한 위젯 크기',
+          home: '홈 화면의 작음, 중간, 큼',
+          lock: '잠금 화면의 원형, 가로, 인라인',
+          standby: 'iOS 17 대기 모드'
+        }
+      },
+      tech: {
+        title: '기술 정보',
+        battery: {
+          title: '배터리 최적화',
+          description: '초 업데이트는 시스템 메커니즘을 활용하여 기존 타이머 기반 구현보다 전력 소비를 줄입니다.'
+        }
       },
       contact: {
         title: '문의',

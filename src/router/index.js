@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Year2025 from '../views/Year2025.vue'
 import Year2026 from '../views/Year2026.vue'
 import Kaimonomemo from '../views/Kaimonomemo.vue'
+import TesseraClock from '../views/TesseraClock.vue'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 import TravelNomunomu from '../views/TravelNomunomu.vue'
 
@@ -28,6 +29,11 @@ const router = createRouter({
       path: '/kaimonomemo',
       name: 'kaimonomemo',
       component: Kaimonomemo
+    },
+    {
+      path: '/tessera-clock',
+      name: 'tessera-clock',
+      component: TesseraClock
     },
     {
       path: '/privacy',
