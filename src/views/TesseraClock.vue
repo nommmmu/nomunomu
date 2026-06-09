@@ -54,6 +54,12 @@
         class="screenshot"
       />
     </section>
+
+    <section class="card contact-card">
+      <h2>お問い合わせ</h2>
+      <p>ご質問やサポートが必要な場合は、お気軽にお問い合わせください。</p>
+      <a class="email-link" href="mailto:support@nomunomu.dev">support@nomunomu.dev</a>
+    </section>
   </main>
 </template>
 
@@ -154,6 +160,22 @@ ul {
   width: min(420px, 100%);
   border-radius: 20px;
   box-shadow: 0 10px 26px rgba(24, 64, 122, 0.2);
+}
+
+.contact-card {
+  text-align: center;
+}
+
+.email-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #0070c9;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 640px) {
