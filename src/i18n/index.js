@@ -90,6 +90,55 @@ const messages = {
         description: 'ご質問やサポートが必要な場合は、お気軽にお問い合わせください。'
       }
     },
+    spaceshooting: {
+      title: 'プライバシーポリシー',
+      lastUpdated: '最終更新日',
+      overview: {
+        title: '概要',
+        content: '本ポリシーは、TAKASHI NOMURA(以下「開発者」)が提供するiOSアプリ「スペースシューティング(Space Shooting)」(以下「本アプリ」)における利用者情報の取り扱いを定めるものです。'
+      },
+      collection: {
+        title: '収集する情報',
+        intro: '本アプリが氏名やメールアドレス等の個人情報を収集することはなく、アカウント登録も不要です。一方、広告表示のために組み込まれた第三者SDKが、次の情報を自動的に収集する場合があります。',
+        items: {
+          ads: '広告識別子(IDFA)、IPアドレス、端末の機種やOSバージョン等の端末情報、広告の表示・タップ等の利用状況',
+          progress: 'ゲームの進行データ(ステージ進行度・コイン・強化状況等)は端末内にのみ保存され、外部に送信されません'
+        }
+      },
+      usage: {
+        title: '情報の利用目的',
+        items: {
+          serving: '広告の配信・表示',
+          measurement: '広告効果の測定(AppleのSKAdNetworkを含む)',
+          fraud: '不正行為の防止およびセキュリティの確保'
+        }
+      },
+      tracking: {
+        title: 'トラッキング(ATT)について',
+        content: '本アプリは初回起動時に、AppleのApp Tracking Transparency(ATT)に基づくトラッキングの許可をお願いすることがあります。許可された場合、広告識別子(IDFA)がパーソナライズ広告の配信に利用されます。許可しなくても本アプリはご利用いただけます(パーソナライズされていない広告が表示されます)。設定はiOSの「設定 > プライバシーとセキュリティ > トラッキング」からいつでも変更できます。'
+      },
+      thirdParty: {
+        title: '第三者SDK',
+        intro: '本アプリは広告配信のために以下のSDKを利用しています。各事業者による情報の取り扱いについては、各社のプライバシーポリシーをご確認ください。',
+        policyLink: 'プライバシーポリシー'
+      },
+      storage: {
+        title: 'データの保存',
+        content: 'ゲームデータは端末内にのみ保存されます。本アプリを削除すると、端末内のゲームデータも削除されます。'
+      },
+      children: {
+        title: '子どものプライバシー',
+        content: '本アプリは13歳未満の子どもを主な対象としておらず、子どもから意図的に個人情報を収集することはありません。'
+      },
+      changes: {
+        title: 'ポリシーの変更',
+        content: '本ポリシーは、法令の改正やアプリの機能変更に応じて改定されることがあります。重要な変更がある場合は本ページにてお知らせします。'
+      },
+      contact: {
+        title: 'お問い合わせ',
+        content: '本ポリシーに関するお問い合わせは、以下のメールアドレスまでお願いします。'
+      }
+    },
     privacy: {
       title: 'プライバシーポリシー',
       lastUpdated: '最終更新日',
@@ -208,6 +257,55 @@ const messages = {
       contact: {
         title: 'Contact',
         description: 'If you have any questions or need support, please feel free to contact us.'
+      }
+    },
+    spaceshooting: {
+      title: 'Privacy Policy',
+      lastUpdated: 'Last updated',
+      overview: {
+        title: 'Overview',
+        content: 'This policy describes how TAKASHI NOMURA (the "Developer") handles user information in the iOS app "Space Shooting" (the "App").'
+      },
+      collection: {
+        title: 'Information We Collect',
+        intro: 'The App itself does not collect personal information such as your name or email address, and no account is required. However, third-party SDKs integrated for advertising may automatically collect the following information.',
+        items: {
+          ads: 'Advertising identifier (IDFA), IP address, device information such as model and OS version, and ad interaction data such as impressions and taps',
+          progress: 'Game progress data (stages, coins, upgrades, etc.) is stored only on your device and is never transmitted externally'
+        }
+      },
+      usage: {
+        title: 'How Information Is Used',
+        items: {
+          serving: 'Serving and displaying ads',
+          measurement: 'Measuring ad performance (including Apple SKAdNetwork)',
+          fraud: 'Fraud prevention and security'
+        }
+      },
+      tracking: {
+        title: 'App Tracking Transparency (ATT)',
+        content: 'On first launch, the App may ask for tracking permission via Apple\'s App Tracking Transparency (ATT). If you allow it, the advertising identifier (IDFA) is used to serve personalized ads. You can use the App without allowing tracking (non-personalized ads will be shown). You can change this anytime in iOS Settings > Privacy & Security > Tracking.'
+      },
+      thirdParty: {
+        title: 'Third-Party SDKs',
+        intro: 'The App uses the following SDKs for advertising. Please refer to each provider\'s privacy policy for details on how they handle information.',
+        policyLink: 'Privacy Policy'
+      },
+      storage: {
+        title: 'Data Storage',
+        content: 'Game data is stored only on your device. Deleting the App also deletes the game data stored on the device.'
+      },
+      children: {
+        title: 'Children\'s Privacy',
+        content: 'The App is not primarily directed at children under 13, and we do not knowingly collect personal information from children.'
+      },
+      changes: {
+        title: 'Changes to This Policy',
+        content: 'This policy may be updated to reflect changes in laws or the App\'s features. Significant changes will be announced on this page.'
+      },
+      contact: {
+        title: 'Contact',
+        content: 'For questions about this policy, please contact us at the email address below.'
       }
     },
     privacy: {
@@ -330,6 +428,55 @@ const messages = {
         description: '如果您有任何问题或需要支持，请随时与我们联系。'
       }
     },
+    spaceshooting: {
+      title: '隐私政策',
+      lastUpdated: '最后更新',
+      overview: {
+        title: '概述',
+        content: '本政策说明 TAKASHI NOMURA(以下称"开发者")在 iOS 应用"Space Shooting"(以下称"本应用")中如何处理用户信息。'
+      },
+      collection: {
+        title: '收集的信息',
+        intro: '本应用本身不会收集姓名、电子邮箱等个人信息,也无需注册账户。但为展示广告而集成的第三方 SDK 可能会自动收集以下信息。',
+        items: {
+          ads: '广告标识符(IDFA)、IP 地址、设备型号和系统版本等设备信息,以及广告展示和点击等使用情况',
+          progress: '游戏进度数据(关卡、金币、强化状态等)仅保存在设备本地,不会向外部发送'
+        }
+      },
+      usage: {
+        title: '信息的使用目的',
+        items: {
+          serving: '广告的投放与展示',
+          measurement: '广告效果的衡量(包括 Apple SKAdNetwork)',
+          fraud: '防止欺诈及保障安全'
+        }
+      },
+      tracking: {
+        title: '关于跟踪许可(ATT)',
+        content: '本应用可能在首次启动时,根据 Apple 的 App Tracking Transparency(ATT)请求跟踪许可。若您允许,广告标识符(IDFA)将用于投放个性化广告。即使不允许,您也可以正常使用本应用(将显示非个性化广告)。您可以随时在 iOS 的"设置 > 隐私与安全性 > 跟踪"中更改设置。'
+      },
+      thirdParty: {
+        title: '第三方 SDK',
+        intro: '本应用为投放广告使用以下 SDK。有关各提供商如何处理信息,请查阅其隐私政策。',
+        policyLink: '隐私政策'
+      },
+      storage: {
+        title: '数据的保存',
+        content: '游戏数据仅保存在设备本地。删除本应用时,设备内的游戏数据也会一并删除。'
+      },
+      children: {
+        title: '儿童隐私',
+        content: '本应用并非主要面向 13 岁以下儿童,也不会有意收集儿童的个人信息。'
+      },
+      changes: {
+        title: '政策的变更',
+        content: '本政策可能因法律法规或应用功能的变化而修订。如有重要变更,将在本页面公布。'
+      },
+      contact: {
+        title: '联系我们',
+        content: '如对本政策有任何疑问,请通过以下电子邮箱与我们联系。'
+      }
+    },
     privacy: {
       title: '隐私政策',
       lastUpdated: '最后更新',
@@ -448,6 +595,55 @@ const messages = {
       contact: {
         title: '문의',
         description: '질문이나 지원이 필요하시면 언제든지 문의해 주세요.'
+      }
+    },
+    spaceshooting: {
+      title: '개인정보 처리방침',
+      lastUpdated: '최종 업데이트',
+      overview: {
+        title: '개요',
+        content: '본 방침은 TAKASHI NOMURA(이하 "개발자")가 제공하는 iOS 앱 "Space Shooting"(이하 "본 앱")에서의 이용자 정보 취급에 대해 규정합니다.'
+      },
+      collection: {
+        title: '수집하는 정보',
+        intro: '본 앱 자체는 이름, 이메일 주소 등의 개인정보를 수집하지 않으며 계정 등록도 필요하지 않습니다. 다만 광고 표시를 위해 포함된 제3자 SDK가 다음 정보를 자동으로 수집할 수 있습니다.',
+        items: {
+          ads: '광고 식별자(IDFA), IP 주소, 기기 모델 및 OS 버전 등의 기기 정보, 광고 노출·탭 등의 이용 상황',
+          progress: '게임 진행 데이터(스테이지, 코인, 강화 상태 등)는 기기 내에만 저장되며 외부로 전송되지 않습니다'
+        }
+      },
+      usage: {
+        title: '정보의 이용 목적',
+        items: {
+          serving: '광고의 전송 및 표시',
+          measurement: '광고 효과 측정(Apple SKAdNetwork 포함)',
+          fraud: '부정행위 방지 및 보안 확보'
+        }
+      },
+      tracking: {
+        title: '추적 허가(ATT)에 대하여',
+        content: '본 앱은 최초 실행 시 Apple의 App Tracking Transparency(ATT)에 따라 추적 허가를 요청할 수 있습니다. 허가하시면 광고 식별자(IDFA)가 맞춤형 광고 전송에 사용됩니다. 허가하지 않아도 본 앱을 이용할 수 있습니다(맞춤형이 아닌 광고가 표시됩니다). 설정은 iOS의 "설정 > 개인정보 보호 및 보안 > 추적"에서 언제든지 변경할 수 있습니다.'
+      },
+      thirdParty: {
+        title: '제3자 SDK',
+        intro: '본 앱은 광고 전송을 위해 다음 SDK를 사용합니다. 각 사업자의 정보 취급에 대해서는 각사의 개인정보 처리방침을 확인해 주세요.',
+        policyLink: '개인정보 처리방침'
+      },
+      storage: {
+        title: '데이터 저장',
+        content: '게임 데이터는 기기 내에만 저장됩니다. 본 앱을 삭제하면 기기 내 게임 데이터도 삭제됩니다.'
+      },
+      children: {
+        title: '아동의 개인정보',
+        content: '본 앱은 만 13세 미만 아동을 주된 대상으로 하지 않으며, 아동으로부터 의도적으로 개인정보를 수집하지 않습니다.'
+      },
+      changes: {
+        title: '방침의 변경',
+        content: '본 방침은 법령 개정이나 앱 기능 변경에 따라 개정될 수 있습니다. 중요한 변경이 있는 경우 본 페이지에서 안내합니다.'
+      },
+      contact: {
+        title: '문의',
+        content: '본 방침에 관한 문의는 아래 이메일 주소로 부탁드립니다.'
       }
     },
     privacy: {

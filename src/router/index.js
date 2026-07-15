@@ -5,6 +5,7 @@ import Year2026 from '../views/Year2026.vue'
 import Kaimonomemo from '../views/Kaimonomemo.vue'
 import TesseraClock from '../views/TesseraClock.vue'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
+import SpaceShootingPrivacy from '../views/SpaceShootingPrivacy.vue'
 import TravelNomunomu from '../views/TravelNomunomu.vue'
 
 const router = createRouter({
@@ -39,6 +40,11 @@ const router = createRouter({
       path: '/privacy',
       name: 'privacy',
       component: PrivacyPolicy
+    },
+    {
+      path: '/spaceshooting',
+      name: 'spaceshooting',
+      component: SpaceShootingPrivacy
     },
     {
       path: '/travel-nomunomu',
